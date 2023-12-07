@@ -1,0 +1,16 @@
+# Ignoring these files in the git repositoryu
+.idea/
+BurstSMS*.jpg
+BurstSMS.zip
+BurstSMS_config.py
+Excel*.jpg
+FPtest.xlsx
+Food-Parcel*.xls
+Food-Parcel*.xlsx
+New*.rtf
+New_message_ID.txt
+message_id.txt
+message_id2.txt
+scratch.py
+__pycache__/
+FP_SendSMS.py
