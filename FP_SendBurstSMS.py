@@ -39,7 +39,7 @@ class ExtractList():
         # Go through the dataframe
         while(i <= len(first3col)-1):
             # If the last column indicates send
-            if(lastcol.iloc[i]== 'Sent'):
+            if(lastcol.iloc[i] == 'Sent' or lastcol.iloc[i] == 'sent'):
                 if(j == False):
                     # The list to be send is empty so create a new dataframe with the list
                     listsend = pd.DataFrame(first3col.iloc[i])
@@ -52,8 +52,10 @@ class ExtractList():
                 #print(lastcol.iloc[i])
             i = i + 1
 
+        #print(listsend)
         # Transpose the list sent
         listT = listsend.T
+        #print(listT)
         # print(listT['Phone'])
         # Convert the phone number to integer
         listT.iloc[:, 0] = listT.iloc[:, 0].astype('int64')
