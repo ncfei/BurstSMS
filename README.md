@@ -3,6 +3,7 @@ This project automates the sending and receiving of mass SMS, to inform subjects
 
 Please install the latest Python release from https://www.python.org/ to run these programs.
 Run the following in the windows command line to install the relevant modules needed after Python installation.
+
 py -m pip install numpy
 py -m pip install pandas
 py -m pip install openpyxl
