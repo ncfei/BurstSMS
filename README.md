@@ -16,7 +16,7 @@ Please ensure that the excel file Food-Parcel Masters List.xlsx is stored in the
 
 To send mass SMS, please run the following command: 
 
-py FP_SendBurstSMS.py
+* py FP_SendBurstSMS.py
 
 After running FP_SendBurstSMS.py, two files are generated (message_id.txt and BurstSMS_config.py). These two files are required for running the next program FP_ReplySMS.py.
 The purpose of FP_ReplySMS.py is to retrieve a list of SMS response from the BurstSMS website. In addition, it also updates the master list excel file with 
@@ -26,4 +26,4 @@ Please note, the program (FP_ReplySMS.py) should only be run at a suitable cutof
 
 To update the master list excel file, please run the following command:
 
-py FP_ReplySMS.py
+* py FP_ReplySMS.py
